@@ -33,7 +33,7 @@ class _Parte2State extends State<Parte2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-          appBar: AppBar(backgroundColor: Colors.blue, title: Center(child: Text("Aplicativo Etec")),),
+          appBar: AppBar(backgroundColor: Colors.blue, title: Center(child: Text("Aplicativo Etec", style: TextStyle(fontWeight: FontWeight.bold),)),),
           body: Column(children: [
             TextField(
               controller: email,

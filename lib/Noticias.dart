@@ -10,7 +10,10 @@ class Noticias extends StatelessWidget {
     return Scaffold(
       drawer: Menu(),
       appBar: AppBar(backgroundColor: Colors.blue, title: Center(child: Text("Aplicativo Etec: Notícias")),),
-      body: Text("aaa"),
+      body: Column(children: [Row(
+        children: [ Center(child: const Image(image: NetworkImage('https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg')))]
+      )],),
     );
   }
 }
+
