@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Inicio.dart';
-import 'package:flutter_application_1/menu.dart';
 
 void main(){
  runApp(Parte1());
@@ -34,7 +33,6 @@ class _Parte2State extends State<Parte2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-          drawer: Menu(),
           appBar: AppBar(backgroundColor: Colors.blue, title: Center(child: Text("Aplicativo Etec")),),
           body: Column(children: [
             TextField(
